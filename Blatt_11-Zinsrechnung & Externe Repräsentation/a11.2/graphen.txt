@@ -1,0 +1,8 @@
+LO (1) RU
+LO (2) Spitze
+LU (3) LO
+LU (3) RU
+RO (1) LU
+RO (3) LO
+RU (3) RO
+Spitze (2) RO

@@ -1,0 +1,15 @@
+with "adalogo";
+project Snowflake is
+   for Object_Dir use "obj";
+   for Exec_Dir use ".";
+   for Main use ("snowflake");
+   package Compiler is
+      for Default_Switches ("ada") use
+        ("-g", "-gnato", "-gnata", "-gnaty3acefhiklmnprt");
+   end Compiler;
+   package Linker renames Adalogo.Linker;
+   --  Alternatively, if you need additional switches:
+   --  package Linker is
+   --     for Default_Switches ("Ada") use (GtkAda2.Ada_Switches & ...)
+   --  end Linker;
+end Snowflake;

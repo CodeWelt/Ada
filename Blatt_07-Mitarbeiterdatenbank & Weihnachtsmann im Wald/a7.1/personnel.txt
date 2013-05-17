@@ -1,0 +1,5 @@
+1#Bill#0
+2#Alice#1
+20#Bob#1
+17#Thomas#2
+5#Karl#0
